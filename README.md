@@ -3,7 +3,7 @@ Este conjunto de datos contiene información sobre pagos predeterminados, factor
 y estados de cuenta de clientes de tarjetas de crédito en Taiwán desde abril de 2005 hasta septiembre de 2005. El objetivo principal 
 es estimar la probabilidad de incumplimiento de pago de los clientes.
 
-# Descripción de las variables:
+### Descripción de las variables:
 - ID: ID de cada cliente
 - LIMIT_BAL: monto del crédito otorgado en dólares NT (incluye crédito individual y familiar/suplementario)
 - SEX: Género (1=masculino, 2=femenino)
@@ -31,7 +31,7 @@ es estimar la probabilidad de incumplimiento de pago de los clientes.
 - PAY_AMT6: Importe del pago anterior en abril de 2005 (dólar NT)
 - DEFAULT: Pago predeterminado (1=sí, 0=no)
 
-# Contexto Comercial
+### Contexto Comercial
 Uno de los principales ingresos de los bancos son los préstamos a los clientes. La ganancia de los bancos radica en los intereses que le cobran 
 por el préstamo, el cual varía para cada cliente y está sujeto a diferentes factores. Uno de los factores más importantes es el riesgo, y este se 
 calcula por las distintas variables que tiene el cliente, como por ejemplo su edad, sus ingresos mensuales, su historial crediticio, etc. Sin 
